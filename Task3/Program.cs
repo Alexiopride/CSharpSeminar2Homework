@@ -9,13 +9,14 @@ void weekend(int num)
 {
    if (num > 0 && num < 8)
    {
-      if (num == 1 || num == 6)
+      if (num == 6 || num == 7) 
+      // "||" - или. "&&" - "амперсант" И.
       {
-         Console.WriteLine("Рабочий день"); 
+         Console.WriteLine("Выходной день"); 
       }
       else 
       {
-         Console.WriteLine("Выходной день"); 
+         Console.WriteLine("Рабочий день"); 
       }
    }
    else 
